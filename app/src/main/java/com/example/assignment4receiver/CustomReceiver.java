@@ -6,9 +6,9 @@ import android.content.Intent;
 import android.widget.Toast;
 
 public class CustomReceiver extends BroadcastReceiver {
-    public static final String intentAction = "com.assignment4.ACTION_SEND_MESSAGE";
-    public static final String messageKey = "com.assignment4.ACTION_SEND_MESSAGE.MESSAGE";
-    public static final String intentPermission = "com.assignment4.CUSTOM_RECEIVER_PERMISSION";
+    public static final String intentAction = "com.assignment4.ACTION_SEND_MESS";
+    public static final String messageKey = "com.assignment4.ACTION_SEND_MESS.MESS";
+    public static final String intentPermission = "com.assignment4.PERMISSION_HARI";
 
     @Override
     public void onReceive(Context context, Intent intent) {
