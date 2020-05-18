@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.assignment4receiver">
 
-    <permission android:name="com.assignment4.PERMISSION_HARI" />
-    <uses-permission android:name="com.assignment4.PERMISSION_HARI" />
+    <permission android:name="com.assignment.PERMISSION_HARI" />
+    <uses-permission android:name="com.assignment.PERMISSION_HARI" />
 
     <application
         android:icon="@mipmap/ic_launcher"
@@ -23,9 +23,9 @@
         <receiver
             android:name=".CustomReceiver"
             android:exported="true"
-            android:permission="com.assignment4.PERMISSION_HARI">
+            android:permission="com.assignment.PERMISSION_HARI">
             <intent-filter>
-                <action android:name="com.assignment4.ACTION_SEND_MESS" />
+                <action android:name="com.assignment.ACTION_SEND_MESS" />
             </intent-filter>
         </receiver>
     </application>
